@@ -1,0 +1,13 @@
+"nome": object > tracks{} > items[] > 0{} > track{}, name
+"album": object > tracks{} > items[] > 0{} > track{} > album{}, name
+"artist": object > tracks{} > items[] > 0{} > track{} > album{} > artists[] > 0{}, name
+"duration": object > tracks{} > items[] > 0{} > track{}, duration_ms
+"popularity": object > tracks{} > items[] > 0{} > track{}, popularity
+
+
+"nome": raiz{tracks{items[{track{name}}]}}
+"album": raiz{tracks{items[{track{album{name}}}]}}
+"artist": raiz{tracks{items[{track{album{artists[{name}]}}}]}}
+"duration": raiz{tracks{items[{track{duration_ms}}]}}
+"popularity": raiz{tracks{items[{track{popularity}}]}}
+
