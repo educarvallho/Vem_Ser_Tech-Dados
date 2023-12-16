@@ -3,8 +3,8 @@ import base64
 import json
 
 # Credenciais do Spotify
-CLIENT_ID = '54441a26a05642be950c285a8d4ee19c'
-CLIENT_SECRET = '3c45a7de72654b7c8e7be09f3ca50ff9'
+CLIENT_ID = 'xxxxx'
+CLIENT_SECRET = 'xxxxx'
 
 # ID da playlist "Top 50 - Global"
 playlist_id = '37i9dQZEVXbMDoHDwVN2tF'
